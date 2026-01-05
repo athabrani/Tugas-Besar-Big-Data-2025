@@ -6,7 +6,7 @@ from extract_source1 import append_jsonl
 
 BASE_DIR = Path("/content/bigdata_final_project")
 RAW_DIR = BASE_DIR / "raw"
-LOG_DIR = BASE_DIR / "etl_pipeline" / "logs"
+LOG_DIR = BASE_DIR / "logs" / "etl"
 
 EXTRACT_LOG = LOG_DIR / "extract_log.jsonl"
 
