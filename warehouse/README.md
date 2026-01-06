@@ -22,8 +22,6 @@ Model data menggunakan pendekatan **Star Schema** yang terdiri dari:
 - `dim_product_category`
 - `dim_trend`
 
-Diagram skema dapat dilihat pada folder `schema/`.
-
 ## 2. Proses Load
 
 Data hasil transformasi ETL dimuat ke SQLite database
